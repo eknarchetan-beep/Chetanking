@@ -4,8 +4,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 # Render वरून BOT_TOKEN ऑटोमॅटिक घेईल
-API_ID = 6 // डमी आयडी चालेल
-API_HASH = "123456789abcdef" // डमी हॅश चालेल
+API_ID = 6  # डमी आयडी चालेल
+API_HASH = "123456789abcdef"  # डमी हॅश चालेल
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 app = Client("MyUploaderBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
